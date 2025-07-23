@@ -1,0 +1,16 @@
+"./ti_msp_dl_config.o"
+"./startup_mspm0g350x_ticlang.o"
+"./main.o"
+"./user/delay.o"
+"./user/firewater_protocol.o"
+"./user/user_ADC.o"
+"./user/user_DAC.o"
+"./user/user_Encoder.o"
+"./user/user_INA226.o"
+"./user/user_OLED.o"
+"./user/user_current_sensor.o"
+"./user/user_key.o"
+"./user/user_uart.o"
+-l"./device_linker.cmd"
+-ldevice.cmd.genlibs
+-llibc.a
